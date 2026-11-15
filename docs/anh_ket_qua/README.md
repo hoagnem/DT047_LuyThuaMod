@@ -23,8 +23,7 @@ Không dùng ảnh mẫu của BFS hay ảnh giả. A10, A11 chỉ chụp đư�
 
 | Ảnh | Trạng thái |
 |---|---|
-| A01, A02 | Chưa có tệp: chụp lại `julia --startup-file=no demo.jl` thấy đủ dòng lệnh |
-| A03, A04, A05, A06, A08 | Đã có (đã đối chiếu expected, đạt) |
-| A07 | Có tệp `07_bien_3_CAN_CHUP_LAI.png` nhưng dòng lệnh bị lỗi hiển thị: chụp lại, đổi tên thành `07_bien_3.png` |
-| A09 | Chụp khi chạy `test/runtests.jl` (đã bật verbose để liệt kê T01–T21) |
-| A10, A11 | Làm sau khi có GitHub |
+| A01, A02 | Đã có (cùng một lần chạy `demo.jl`, kèm `julia --version` = 1.12.7) |
+| A03, A04, A05, A06, A07, A08 | Đã có (đã đối chiếu expected, đạt) |
+| A09 | Đã có: liệt kê T01–T21 và tổng kết 4827/4827 (bản verbose) |
+| A10, A11 | Đã có (clone sạch commit C; trang commit GitHub) |

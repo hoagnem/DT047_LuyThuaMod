@@ -4,8 +4,8 @@
 - Môn: Cấu trúc dữ liệu và giải thuật (INT13185, nhóm 03), GV Hồ Nhựt Minh
 - Giáo trình INT1306: Chương 4, mục 4.1.4 (Lũy thừa nhanh); Ví dụ 4.2; bài tập chương 4, câu 19;
   trang in 92–93, 112; trang PDF 104–105, 124.
-- Ngôn ngữ: Julia (chỉ dùng thư viện chuẩn). Phiên bản đã dùng: `[ĐIỀN kết quả julia --version]`.
-- URL GitHub: `[ĐIỀN]` · SHA C: `[ĐIỀN]`
+- Ngôn ngữ: Julia (chỉ dùng thư viện chuẩn). Phiên bản đã dùng: `julia version 1.12.7`.
+- URL GitHub: https://github.com/hoagnem/DT047_LuyThuaMod · SHA C: `eef7a473f33ed844e49db17dfba0e5f85a58bb76` (mã, test, demo đã chạy và chụp ảnh; SHA S ghi trong ThongTinNop.txt)
 
 ## Bài toán và hợp đồng input/output
 
@@ -26,7 +26,7 @@ demo.jl                      chạy ví dụ / tham số / nhập bàn phím
 test/runtests.jl             bộ kiểm thử (21 ca, ID T01–T21)
 scripts/khao_sat_quy_mo.jl   khảo sát 3 quy mô n = 10^3, 10^6, 10^9 bằng phép đếm
 docs/lan_vet_tay.md          bảng lần vết tay n = 10
-docs/anh_ket_qua/            ảnh gốc A03–A08 đã chụp; A01, A02, A07 (chụp lại), A09–A11 còn thiếu, xem README trong thư mục
+docs/anh_ket_qua/            ảnh gốc A01–A09 đã chụp; A10, A11 làm sau khi có GitHub, xem README trong thư mục
 docs/logs/                   log chạy thật (sinh bằng lệnh bên dưới)
 ```
 
@@ -78,5 +78,5 @@ julia --startup-file=no test/runtests.jl
 
 ## Tình trạng đợt 1
 
-- Đã xong: mã thuật toán, demo, test (21 ca, 4827/4827 phép kiểm đạt), khảo sát quy mô, lần vết tay, ảnh A03–A08.
-- Chưa làm (đợt 2): GitHub và SHA C, ảnh A01, A02, A07 (chụp lại cho rõ), A09, A10, A11, báo cáo Word/PDF, TXT nộp rời.
+- Đã xong: mã thuật toán, demo, test (21 ca, 4827/4827 phép kiểm đạt), khảo sát quy mô, lần vết tay, ảnh A01–A09.
+- Chưa làm (đợt 2): GitHub và SHA C, ảnh A10, A11, báo cáo Word/PDF, TXT nộp rời.
